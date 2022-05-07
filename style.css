@@ -1,0 +1,18 @@
+.icon-dark {
+  fill: white;
+}
+
+.mode-icon:hover {
+  cursor: pointer;
+}
+
+.city-card:hover {
+  cursor: pointer;
+  background-color: rgba(233, 220, 220, 0.4);
+  border-width: 1px;
+}
+
+.hide-city-card {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

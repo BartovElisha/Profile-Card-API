@@ -1,0 +1,79 @@
+{
+  "uuid": "5e605d76-24e1-4bb1-addd-7860456333de",
+  "lastMigration": 19,
+  "name": "BookStore",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "e6106384-7896-46bf-bd58-6a5370a34334",
+      "documentation": "profile",
+      "method": "get",
+      "endpoint": "profile",
+      "responses": [
+        {
+          "uuid": "c98a75a1-8edd-4682-880a-ccf106eef5d1",
+          "body": "{\n    \"companyName\": \"BookStore\",\n    \"companyAddress\": \"Book Store Address\",\n    \"companyOwner\": \"Elisha Bartov\",\n    \"profiles\": [\n        {\n            \"user\": \"ElishaB\",\n            \"password\": \"****\",\n            \"mail\": \"elisha.bartov@emerson.com\",\n            \"firstName\": \"Elisha\",\n            \"lastName\": \"Bartov\",\n            \"id\": \"314507252\",\n            \"age\":\"43\",\n            \"languages\": [\"PHP\",\"json\",\"javascript\",\"HTML\",\"CSS\",\"C++\"]\n        }\n    ],\n    \"companyProducts\": [\n        {\n            \"Games\": []\n        },\n        {\n            \"Accesories\": [\n                \"Pen\",\n                \"Pensel\",\n                \"NoteBook\"\n            ]\n        },\n        {\n            \"Top Books Category\": [\n                {\n                    \"Art & Photography\": [\n                        \"Get Changed\",\n                        \"Little Book of Chanel\",\n                        \"Threads of Life\"\n                    ]\n                },\n                {\n                    \"Biography\": [\n                        \"Freezing Order\",\n                        \"Merely A Rider\",\n                        \"The Bell Jar\"\n                    ]\n                },\n                {\n                    \"Children's Books\": [\n                        \"Heartstopper Volume One\",\n                        \"Solitaire\",\n                        \"Radio Silence\"\n                    ]\n                },\n                {\n                    \"Food & Drink\": [\n                        \"This Is Vegan Propaganda\",\n                        \"Vegan Richa's Indian Kitchen\",\n                        \"Vegan 100\"\n                    ]\n                }\n            ],\n            \"More Books Category\": [\n                {\n                    \"Audio Books\": [\n                        \"The Wheels On The Bus\",\n                        \"The Gruffalo and Other Stories 8 CD Box Set\"\n                    ]\n                },\n                {\n                    \"Business,Finance & Law\": [\n                        \"The Rebuilders\",\n                        \"Digital Darwinism\"\n                    ]\n                },\n                {\n                    \"Computing\": [\n                        \"AWS Certified Security Study Guide\",\n                        \"(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide\"\n                    ]\n                },\n                {\n                    \"Dictionaries & Languages\": [\n                        \"Essential Words for the TOEFL\",\n                        \"TOEFL Pocket Vocabulary\"\n                    ]\n                },\n                {\n                    \"Entertainment Books\": [\n                        \"Finding Me\",\n                        \"The Work\"\n                    ]\n                }\n            ]\n        }\n    ],\n    \"sheepingCities\": [\n        \"Ashdod\",\n        \"Tel Aviv\",\n        \"Jerusalim\",\n        \"Sderot\"\n    ]\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}

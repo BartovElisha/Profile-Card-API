@@ -1,0 +1,18 @@
+.icon-dark {
+    fill: white;
+}
+
+.mode-icon:hover {
+  cursor: pointer; 
+}
+
+.city-card:hover {
+  cursor: pointer;
+  background-color: rgba($color: #e9dcdc, $alpha: 0.4);
+  //border-color: gainsboro;
+  border-width: 1px;
+}
+
+.hide-city-card {
+    display: none;
+}
